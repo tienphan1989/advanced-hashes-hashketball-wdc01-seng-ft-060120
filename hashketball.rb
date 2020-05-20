@@ -134,7 +134,7 @@ def players_data
 end
 
 def find_player(player_name)
-find_player = players_data.find {|player| player.fetch(:player_name) == test_name}
+find_player = players_data.find {|player| player.fetch(:player_name) == player_name}
 end
 
 def num_points_scored(test_name)
